@@ -11,9 +11,6 @@ body {
     max-width: 120px;
   }
   
-  .navbar .btn {
-    margin-right: 1rem;
-  }
   
   /* Estilos para el CartWidget */
   .cart-widget {
@@ -31,4 +28,20 @@ body {
   .cart-count {
     font-size: 16px;
     font-weight: bold;
+  }
+
+  
+  /* Estilos para los enlaces activos */
+  .ActiveOption {
+    font-weight: bold;
+    color: rgb(95, 10, 10);
+  }
+  
+  .Option {
+    /* Agrega tus estilos para el estado inactivo aquí */
+    color: gray; /* Ejemplo: Cambia el color del texto */
+  }
+
+  .nav-link {
+    text-decoration: none;
   }

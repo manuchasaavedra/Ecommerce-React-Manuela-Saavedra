@@ -1,0 +1,13 @@
+.custom-image {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+
+  .custom-button {
+background-color: rgba(95, 10, 10, 0.674);
+  color: black;
+  border: none;
+  border-radius: 0.5rem; /* Agrega bordes redondeados */
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  }
