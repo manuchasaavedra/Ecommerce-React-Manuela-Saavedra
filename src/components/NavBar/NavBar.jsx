@@ -13,10 +13,10 @@ const NavBar = () => {
                     <img src={indolfoLogo} alt="Indolfo Logo" width="120" />
                 </Link>
                 <div className="d-flex ml-auto">
-                    <NavLink to={'/category/picadas'} className={({isActive}) => isActive? 'ActiveOption' : 'Option' } style={{ marginRight: '1rem', textDecoration: 'none' }}>Picadas</NavLink>
-                    <NavLink to={'/category/tortas'} className={({isActive}) => isActive? 'ActiveOption' : 'Option'} style={{ marginRight: '1rem' , textDecoration: 'none' }}>Tortas</NavLink>
-                    <NavLink to={'/category/entradas'} className={({isActive}) => isActive? 'ActiveOption' : 'Option'} style={{ marginRight: '1rem' , textDecoration: 'none' }}>Entradas</NavLink>
-                    <div style={{ marginRight: '1rem' }}> {/* Contenedor con margen derecho */}
+                    <NavLink to={'/category/picadas'} className={({isActive}) => isActive? 'ActiveOption' : 'Option' } style={{ marginRight: '2rem', textDecoration: 'none' }}>Picadas</NavLink>
+                    <NavLink to={'/category/tortas'} className={({isActive}) => isActive? 'ActiveOption' : 'Option'} style={{ marginRight: '2rem' , textDecoration: 'none' }}>Tortas</NavLink>
+                    <NavLink to={'/category/entradas'} className={({isActive}) => isActive? 'ActiveOption' : 'Option'} style={{ marginRight: '2rem' , textDecoration: 'none' }}>Entradas</NavLink>
+                    <div style={{ marginRight: '2rem' }}>
                     <CartWidget />
                     </div>
                 </div>

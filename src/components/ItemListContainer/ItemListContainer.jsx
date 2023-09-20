@@ -10,11 +10,14 @@ const ItemListContainer = () => {
 
   useEffect(() => {
     
-
     setIsLoading(true);
 
     getProducts(categoryId).then((response) => {
       setItems(response);
+      setIsLoading(false);
+    })
+    .catch (() => {
+      setItems([]);
       setIsLoading(false);
     });
   }, [categoryId]);

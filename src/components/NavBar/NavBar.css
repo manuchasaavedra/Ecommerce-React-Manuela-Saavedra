@@ -2,6 +2,7 @@ body {
     background-color: beige;
 }
 .navbar {
+    position: fixed;
     padding: 1rem;
     background-color: #a98056ad;
     border-bottom: 1px;
@@ -12,17 +13,23 @@ body {
   }
   
   
-  /* Estilos para el CartWidget */
   .cart-widget {
     display: flex;
     align-items: center;
     margin-left: 1rem;
+    text-decoration: none;
   }
   
   .cart-widget img {
     width: 20px;
     height: 20px;
     margin-right: 0.25rem;
+  }
+
+  .cart-button {
+    margin-top: -5px; 
+    text-decoration: none;
+    background-color:rgb(95, 10, 10);
   }
   
   .cart-count {

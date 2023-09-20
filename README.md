@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Indolfo Almacen 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Indolfo Almacen es un ecommerce que ofrece distintas comidas para disfrutar en tus festejos y momentos especiales. 
 
-## Available Scripts
+### Contenidos
+·	Descripcion
+·	Caracteristicas
+·	Requisitos
+· 	Instalacion
+·	Uso
+·	Demo
+·	Licencia
 
-In the project directory, you can run:
+### Descripción
+El proyecto esta creado con la biblioteca React, utilizando 
+react-script como herramienta de compilacion. Los estilos provienen de bootstrap y CSS. Todos los enlaces se crean con react-router-dom. 
 
-### `npm start`
+### Caracteristicas
+· Catalogo de tortas, picadas y entradas.
+·	Detalle de productos, con contador y boton añadir al carrito.
+· Filtros para productos por categoria
+· Carrito de compra
+· Formulario de contacto
+· Generacion de pedidos y gestion de productos en Firebase
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Requisitos
+Antes de comenzar a trabajar en este proyecto, asegúrate de cumplir con los siguientes requisitos:
+· Node.js y npm: Debes tener Node.js instalado en tu sistema. Puedes descargarlo desde [nodejs.org](https://nodejs.org/).
+· Git: Se recomienda tener Git instalado para gestionar el control de versiones de tu proyecto. Puedes descargarlo desde [git-scm.com](https://git-scm.com/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Instalacion
+Para instalar y ejecutar la aplicacion:
+1. Clona el siguiente repositorio en tu consola local utilizando Git: `git clone `
+2. Navega al directorio del proyecto: `cd ecommerce`
+3. Instala las dependencias del proyecto utilizando npm: `npm install`
+4. Inicia la aplicacion: `npm start`. La aplicacion se encontrara disponible en el localHost de tu navegador web.
 
-### `npm test`
+### Uso
+La seccion principal de la página muestra una lista de todos los productos que Indolfo Almacen ofrece. Cuenta ademas con una barra de navegacion donde se pueden filtrar los productos por categorias: **Picadas** - **Tortas** - **Entradas**, inclute ademas el logo de la empresa que al clickearlo desde cualquier lugar del proyecto, te redirige a la pagina principal.  
+Al hacer click en *Ver Detalles* no redirige a una nueva pagina donde se observa una imagen, el nombre, la descripcion, el precio y un itemCount que permite incrementar o decrementar la cantidad de productos que agregamos al darle click a *Añadir al Carrito*. 
+Al añadir productos al carrito, se activa el icono cart con un badge que contiene la cantidad de productos que tiene nuestro carrito, al clickearlo ingresamos en una nueva pagina que nos muestra el contenido del carrito:
+| Nombre | Cantidad | Precio Unitario | Subtotal | 
+y tiene los botones de *Vaciar Carrito* y de *Finalizar Compra*.
+Al hacer click en este ultimo, te redirige a una nueva pagina donde hay un formulario de contacto que completar y un boton *Comprar* que se activa cuando los datos estan completos. Al **Comprar** llegamos a una ultima pagina con un mensaje de agradecimiento, el id de la compra y un boton para volver al inicio.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Demo
+(https://youtu.be/6DNfNigbONg)
 
-### `npm run build`
+### Licencia
+Este es un proyecto con fines educativos, por lo que no tiene funcionalidad comercial ni ofrece datos sensibles. Todos los productos son ficticios.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
